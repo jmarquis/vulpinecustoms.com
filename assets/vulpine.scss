@@ -1,0 +1,119 @@
+---
+---
+
+*, ::before, ::after {
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #211217;
+  color: #ddd;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+
+  & + h1,
+  & + h2,
+  & + h3,
+  & + p {
+    margin-top: 1em;
+  }
+}
+
+a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 700;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.page {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 0 5vw;
+
+  > header {
+    padding: 80px 0 64px;
+    display: flex;
+    justify-content: center;
+
+    svg {
+      height: 64px;
+    }
+  }
+
+  > .content {
+    max-width: 800px;
+  }
+}
+
+.page-index {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: proxima-nova-extra-condensed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  a {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+  }
+
+  .left {
+    position: absolute;
+    right: 50%;
+    padding-right: 80px;
+
+    svg {
+      height: 100px;
+      width: auto;
+    }
+  }
+
+  .right {
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    padding: 80px 0 88px 80px;
+    box-shadow: inset 1px 0 #888;
+
+    li {
+      margin: 0;
+
+      & + li {
+        margin-top: 24px;
+      }
+
+      &:last-child {
+        margin-top: 32px;
+      }
+
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}

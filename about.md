@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# About
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+We build GameCube controllers for Smash competitors and enthusiasts. Every controller we sell is modded and tested to the highest possible standards for the ultimate high-quality feel and long-term consistent performance, and usually features a minimalist bespoke design incorporating custom handmade components from various talented members of the GCC modder community.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Small batches of premade controllers drop regularly on <a href="https://vulpinecustoms.etsy.com" target="_blank">Etsy</a> and are announced on <a href="https://twitter.com/VulpineCustoms" target="_blank">Twitter</a>. Premades often sell out quickly, so make sure you’re following us on Twitter to be the first to know when there’s a drop.
 
-
-[jekyll-organization]: https://github.com/jekyll
+Commissions are very selectively accepted. Send us a message on Twitter or Etsy to inquire.
