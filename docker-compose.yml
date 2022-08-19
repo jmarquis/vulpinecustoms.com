@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  web:
+    build: .
+    volumes:
+      - .:/opt/web:delegated
+      - bundle_cache:/usr/local/bundle:delegated
+    ports:
+      - "4444:4000"
+
+volumes:
+  bundle_cache:
