@@ -71,6 +71,23 @@ a {
     width: 100%;
     max-width: calc(10vw + 640px);
   }
+
+  > .gallery {
+    width: 100%;
+    max-width: 1024px;
+
+    > img {
+      width: 33.3333%;
+
+      @media (max-width: 800px) {
+        width: 50%;
+      }
+
+      @media (max-width: 640px) {
+        width: 100%;
+      }
+    }
+  }
 }
 
 .page-index {
