@@ -14,12 +14,12 @@ body {
 
 body {
   margin: 0;
-  padding: 0 0 96px;
+  padding: 0;
   box-sizing: border-box;
   background-color: #211217;
   color: #ddd;
   font-family: cartograph-cf, monospace;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   line-height: 1.5;
   background: url(/assets/bg.jpg);
@@ -53,9 +53,10 @@ a {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  padding: 0 5vw;
+  padding-bottom: 96px;
 
   > header {
+    width: 100%;
     padding: 80px 0 64px;
     display: flex;
     justify-content: center;
@@ -66,7 +67,9 @@ a {
   }
 
   > .content {
-    max-width: 640px;
+    padding: 0 5vw;
+    width: 100%;
+    max-width: calc(10vw + 640px);
   }
 }
 
