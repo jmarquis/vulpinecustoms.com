@@ -14,11 +14,11 @@ body {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 0 96px;
   box-sizing: border-box;
   background-color: #211217;
   color: #ddd;
-  font-family: proxima-nova, sans-serif;
+  font-family: cartograph-cf, monospace;
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
@@ -66,7 +66,7 @@ a {
   }
 
   > .content {
-    max-width: 680px;
+    max-width: 640px;
   }
 }
 
