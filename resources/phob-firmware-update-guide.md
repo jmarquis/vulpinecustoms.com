@@ -22,7 +22,7 @@ Download and unzip this bundle, which contains a precompiled HEX binary (the fir
 
 [PhobGCC 0.25 for Phob 1.2.X boards and Teensy 4.0](/assets/phob/PhobGCC-0.25_1.2_Teensy4.0.zip)
 
-Note that this binary is specific to PhobGCC builds with 1.2.X boards and a Teensy 4.0. **I take no responsibility for what happens if you try to flash this binary onto any controller not matching these specifications.**
+Note that this binary is specific to PhobGCC builds with 1.2.X boards and a Teensy 4.0. **You take full responsibility for what happens if you try to flash this binary onto any controller not matching these specifications.**
 
 ## The process
 
