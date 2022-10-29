@@ -20,7 +20,7 @@ You will also need a micro-USB cable to connect your controller to your computer
 
 Download and unzip this bundle, which contains a precompiled HEX binary (the firmware you will be flashing onto your controller) and the Teensy Loader application for both Windows and Mac (the app you will use to do it):
 
-[PhobGCC 0.25 for Phob 1.2.X boards and Teensy 4.0](/assets/phob/PhobGCC-0.25_1.2_Teensy4.0.zip)
+[PhobGCC 0.27 for Phob 1.2.X boards and Teensy 4.0](/assets/phob/PhobGCC-0.27_1.2_Teensy4.0.zip)
 
 Note that this binary is specific to PhobGCC builds with 1.2.X boards and a Teensy 4.0. **You take full responsibility for what happens if you try to flash this binary onto any controller not matching these specifications.**
 
@@ -58,7 +58,7 @@ Your controller now has the latest firmware! Unplug the USB cable and start putt
 
 Plug the controller into your console or adapter, launch a game, and press B to activate the sticks as usual. Make sure the analog sticks, triggers and buttons all work normally. If so, you’re ready to play!
 
-Depending on which firmware version you upgraded from, you may want to test for snapback, since the built-in snapback filter has changed slightly over time. The best way to do this is using [Smashscope](https://goomwave.com/2020/06/28/smashscope-guide/){:target=>"_blank"}, which will show you snapback waveforms to help inform any adjustments to the filter. Set it up and watch the video to learn how to use it, and then follow the [PhobGCC calibration guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.25.md){:target="_blank"} to adjust the snapback filter as necessary.
+Depending on which firmware version you upgraded from, you may want to test for snapback, since the built-in snapback filter has changed slightly over time. The best way to do this is using [Smashscope](https://goomwave.com/2020/06/28/smashscope-guide/){:target=>"_blank"}, which will show you snapback waveforms to help inform any adjustments to the filter. Set it up and watch the video to learn how to use it, and then follow the [PhobGCC calibration guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.27.md){:target="_blank"} to adjust the snapback filter as necessary.
 
 ## Troubleshooting
 
@@ -66,9 +66,11 @@ If you run into any issues and you’re a Vulpine Customs customer, message me o
 
 ## Resources
 
+- [PhobGCC programming guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide.md){:target=>"blank"}
+
 - [PhobGCC firmware changelog](https://github.com/PhobGCC/PhobGCC-SW/releases){:target=>"blank"}
 
-- [PhobGCC 0.25 calibration &amp; settings guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.25.md){:target=>"_blank"}
+- [PhobGCC 0.27 calibration &amp; settings guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.27.md){:target=>"_blank"}
 
 - [PhobGCC documentation hub](https://github.com/PhobGCC/PhobGCC-doc){:target="_blank"}, including a link to the PhobGCC Discord server.
 
