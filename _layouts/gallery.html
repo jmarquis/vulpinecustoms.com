@@ -14,6 +14,36 @@ layout: default
 
   <script defer>
 
+  $.fn.shuffle = function() {
+    var i, index1, index2, temp_val;
+
+    var count = this.length;
+    var $parent = this.parent();
+    var shuffled_array = [];
+
+    for (i = 0; i < count; i++) {
+      shuffled_array.push(i);
+    }
+
+    for (i = 0; i < count; i++) {
+      index1 = (Math.random() * count) | 0;
+      index2 = (Math.random() * count) | 0;
+
+      temp_val = shuffled_array[index1];
+      shuffled_array[index1] = shuffled_array[index2];
+      shuffled_array[index2] = temp_val;
+    }
+
+    this.detach();
+    for (i = 0; i < count; i++) {
+      $parent.append( this.eq(shuffled_array[i]) );
+    }
+
+    return this;
+  };
+
+  $(".gallery > img").shuffle()
+
   const $grid = $(".gallery").masonry({
     itemSelector: "img",
     columnWidth: "img",
