@@ -109,6 +109,10 @@ p > img:only-child {
     padding: 0 5vw;
     width: 100%;
     max-width: calc(10vw + 640px);
+
+    & + .gallery {
+      margin-top: 64px;
+    }
   }
 
   > .gallery {
